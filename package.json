@@ -1,0 +1,36 @@
+{
+  "name": "gobble-vulcanize",
+  "version": "0.0.1",
+  "main": "lib/gobble-vulcanize.js",
+  "description": "Vulcanize for gobble",
+  "homepage": "https://github.com/kristianmandrup/gobble-vulcanize",
+  "bugs": "https://github.com/kristianmandrup/gobble-vulcanize/issues",
+  "author": {
+    "name": "Kristian Mandrup",
+    "email": "kmandrup@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristianmandrup/gobble-vulcanize"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "gobble-plugin",
+    "vulcanize",
+    "polymer",
+  ],
+
+  "dependencies": {
+    "minimatch": "~1.0.0",
+    "promise-map-series": "~0.2.0",
+    "sander": "^0.1.6"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "preferGlobal": "true"
+}
